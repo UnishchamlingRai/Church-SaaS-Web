@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Login Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-header">
+        <button class="back-button">&#8592;</button>
+        <h2>Enter your login details</h2>
+      </div>
+      <div class="form-container">
+        <form id="login-form">
+          <div class="form-group">
+            <label for="username">Email / Username *</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter your email or username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password *</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+            <button type="button" class="show-password">&#128065;</button>
+          </div>
+          <button type="submit" class="next-button">Next</button>
+          <div class="reset-password">
+            <a href="#">Reset your password</a>
+          </div>
+        </form>
+        <button class="back-link">Back</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
