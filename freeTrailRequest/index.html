@@ -18,70 +18,78 @@
         there might be a delay until we're able to create your account.
       </div>
       <form id="signup-form">
-        <div class="form-group">
-          <label for="first-name">Name *</label>
-          <div class="name-fields">
-            <input
-              type="text"
-              id="first-name"
-              placeholder="First Name"
-              required
-            />
-            <input
-              type="text"
-              id="last-name"
-              placeholder="Last Name"
-              required
-            />
+        <div class="form-group-container">
+          <div>
+            <div class="form-group">
+              <label for="first-name">Full Name *</label>
+
+              <input
+                type="text"
+                id="full-name"
+                placeholder="Enter your Full Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="churchName">Church Name *</label>
+              <input
+                type="text"
+                id="churchName"
+                placeholder="Enter your church name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <div class="form-group">
+              <label for="country">Country *</label>
+              <select id="country" required></select>
+            </div>
+            <div class="form-group">
+              <label for="state">State *</label>
+              <select id="state" required></select>
+            </div>
+            <div class="form-group">
+              <label for="city">City *</label>
+              <select id="city" required></select>
+            </div>
           </div>
         </div>
-        <div class="form-group">
-          <label for="churchName">Church Name *</label>
-          <input
-            type="text"
-            id="churchName"
-            placeholder="Enter your church name"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label for="email">Email *</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Enter your email"
-            required
-          />
-        </div>
 
-        <div class="form-group">
-          <label for="phone">Phone *</label>
-          <input
-            type="tel"
-            id="phone"
-            placeholder="Enter your phone number"
-            required
-          />
+        <div>
+          <div class="form-info">
+            Completing this form requests a new 30 day trial. If your
+            organisation already has an account, please contact them for your
+            personal login details.
+          </div>
+          <div class="submit-from">
+            <button type="submit" class="next-button">
+              <a href="/">Back</a>
+            </button>
+            <button type="submit" class="next-button">
+              Send Trail Request
+            </button>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="country">Country *</label>
-          <select id="country" required></select>
-        </div>
-        <div class="form-group">
-          <label for="state">State *</label>
-          <select id="state" required></select>
-        </div>
-        <div class="form-group">
-          <label for="city">City *</label>
-          <select id="city" required></select>
-        </div>
-        <div class="form-info">
-          Completing this form requests a new 30 day trial. If your organisation
-          already has an account, please contact them for your personal login
-          details.
-        </div>
-        <a href="../index.html">Go To home</a>
-        <button type="submit" class="next-button">Send Trail Request</button>
       </form>
     </div>
     <script src="script.js"></script>

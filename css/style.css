@@ -220,7 +220,7 @@
 /**************************/
 /* ONE APP FOR EVERYONE SECTION */
 /**************************/
-.OneAppForEveryone {
+.gradient-color {
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
@@ -228,10 +228,13 @@
     #d1dfee 70%,
     #9dbce1 100%
   );
+}
+.OneAppForEveryone {
   padding: 4rem 0 2rem; /* Adjust padding as needed */
   display: flex;
   align-items: center;
   justify-content: center;
+  /* padding-bottom: 400px; */
   /* transform: rotate(361deg); */
   /* border: 2px solid blue; */
 }
@@ -311,11 +314,14 @@
     /* Light Blue */ #70bcc5 270deg,
     /* Medium Teal */ #4db4a5 360deg /* Light Teal */
   );
-  padding: 4rem 1rem; /* Adjust padding as needed */
+  padding: 16rem 1rem; /* Adjust padding as needed */
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff; /* White text color */
+  clip-path: polygon(0 16%, 100% 0, 100% 100%, 0 81%);
+  /* border: 300px solid red; */
+  /* border-bottom: 100px solid transparent; */
 }
 
 .about-us-container {
@@ -373,7 +379,7 @@
 /**************************/
 
 .section-testimonials {
-  background-color: #d1dfee;
+  /* background-color: #d1dfee; */
   /* #d1dfee 70%,
     #9dbce1 100% */
   display: grid;
