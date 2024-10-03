@@ -172,16 +172,3 @@ body {
     bottom: 0;
   }
 }
-
-/**************************/
-/* BELOW 704px (Smaller tablets) */
-/**************************/
-
-@media (max-width: 44em) {
-}
-
-@media (max-width: 75em) {
-}
-
-@media (max-width: 59em) {
-}
